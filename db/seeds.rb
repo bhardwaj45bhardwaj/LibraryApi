@@ -12,5 +12,6 @@
 	uid = "123456789" + i.to_s
 	User.create(name: name, email: "#{name}@gmail.com", address: "Pune")
 	Book.create(name: book_name, author: "author", published_date: DateTime.now, uid: uid)
+	
 end
 

@@ -12,4 +12,5 @@ class IssueBook < ApplicationRecord
     def stock_in_book
     	book.update(status: "available")
     end
+    
 end

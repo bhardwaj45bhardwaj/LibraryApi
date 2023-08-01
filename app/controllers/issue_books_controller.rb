@@ -1,8 +1,7 @@
 class IssueBooksController < ApplicationController
 
-	before_action :is_books_available, only: [:create]
+	 before_action :is_books_available, only: [:create]
 
-   
    #Issue available book
    def create
    	  issue_book = IssueBook.new(issue_book_params)
